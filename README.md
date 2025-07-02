@@ -184,7 +184,7 @@ npm run preview
 
 ### Vite 配置
 
-[vite.config.js](file://e:\前端学习\留言板\web\vite.config.js) 中配置了项目的别名、插件等，具体如下：
+[vite.config.js](\web\vite.config.js) 中配置了项目的别名、插件等，具体如下：
 
 ```javascript
 import { defineConfig } from 'vite'
