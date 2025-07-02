@@ -1,0 +1,39 @@
+@use "./publicVariables.scss" as *;
+
+//---------全局控制------------
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $gray-10;
+    font-family: Avenir, PingFang SC, Hiragino Sans GB, Microsoft YaHei, 微软雅黑, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: $gray-1;
+    font-size: $size-14;
+    transition: all 0.3s;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+input,
+textarea {
+    outline: none;
+}
