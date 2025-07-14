@@ -64,9 +64,7 @@
             try {
                 const res = await postComment(data)
                 // ✅ 确保 messages 是数组
-                console.log('获取评论成功:', res.messages)
                 comment.value = Array.isArray(res?.messages) ? [...res.messages] : []
-                console.log('设置 comment.value:', toRaw(comment.value))
             } catch (err) {
                 console.error('获取评论失败:', err)
                 comment.value = [] // 出错时重置为空数组

@@ -92,7 +92,7 @@
                 userId: ip || 0, // 确保是 number 类型
                 label: nlabel.value !== null && typeof nlabel.value !== 'undefined' ? nlabel.value : -1
             }
-            console.log('设置 wall.value:', wall.value)
+
         }
         const res = await postTiezi(wall.value)
         // ✅ 使用 id 字段去重
@@ -170,10 +170,10 @@
     const getUserIp = async () => {
         try {
             const res = await getIp()
-            // console.log('获取 IP 成功:', res.ip)
+
             return res.ip
         } catch (error) {
-            // console.error('获取 IP 失败:', error.message)
+
             return null
         }
     }

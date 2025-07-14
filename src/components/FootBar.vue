@@ -7,11 +7,11 @@
             </div>
             <p class="content">飞行之家由个人独立开发会持续更新新功能，为便于网友交流飞行器相关话题的平台</p>
             <p class="content">用户将话题/问题写在便签贴在飞友圈，用户可以自定义便签颜色和内容属性</p>
-            <p class="state">
+            <!-- <p class="state">
                 <span>声明</span>
                 <span>备案/许可证</span>
                 <span>网站备案/许可证</span>
-            </p>
+            </p> -->
         </div>
         <div class="middle">
             <p class="title">链接</p>

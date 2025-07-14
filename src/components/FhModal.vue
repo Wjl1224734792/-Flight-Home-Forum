@@ -68,7 +68,7 @@
 
     const changIsTo = (bool) => {
         isTo.value = bool
-        console.log(isTo.value)
+
     }
     const submit = async () => {
         info.moment = formatDate(new Date())

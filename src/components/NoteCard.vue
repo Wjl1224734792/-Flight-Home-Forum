@@ -59,7 +59,7 @@
         }
         const res = await createFeedback(data)
         // id = res.messages.insertId
-        // console.log(id)
+
         note[0].like++
     }
 
